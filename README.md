@@ -12,7 +12,12 @@ For this project I chose to save the data in LocalStorage instead of in a databa
 
 Here you can see the base layout I was given to work with:
 
-![<Layout do Projeto>](<projectLayout.png>)
+![<Project's Layout>](<projectLayout.png>)
+
+And here the final result:
+
+![<Project's first page>](<addressPage.png>)
+![<Project's second page>](<newAddressPage.png>)
 
 ## Used tools:
 
@@ -58,6 +63,11 @@ Nesse projeto optei por salvar os dados no LocalStorage, ao invés de em um banc
 Você pode ver o layout que me foi fornecido para o projeto aqui:
 
 ![<Layout do Projeto>](<projectLayout.png>)
+
+E aqui o resultado final:
+
+![<Primeira página do projeto>](<addressPage.png>)
+![<Segunda página do projeto>](<newAddressPage.png>)
 
 ## Ferramentas utilizadas:
 
