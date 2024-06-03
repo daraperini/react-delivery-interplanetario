@@ -65,7 +65,7 @@ export default function Cadastro({params}: any) {
           <h1 className="text-3xl font-semibold">Shipping address</h1>
         </header>
 
-        <form className="flex flex-col p-8 gap-6 font-semibold" ref={formRef}>
+        <form className="flex flex-col p-8 gap-6 font-semibold" ref={formRef} onSubmit={cadastraEndereco} id="cadastro-form">
           <fieldset className="flex flex-col">
             <label htmlFor="label">Address label:</label>
             <select
@@ -198,7 +198,7 @@ export default function Cadastro({params}: any) {
           </button>
           <button
             className="py-2 px-4 border-2 border-indigo-600 bg-indigo-500 rounded-lg text-white transition ease-in-out delay-150 hover:bg-indigo-600"
-            onClick={cadastraEndereco}
+            form="cadastro-form"
           >
             Save changes
           </button>
