@@ -4,7 +4,8 @@ import "./Map.css";
 export default function Map() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyDYJpeI1ZkRGeIjt9Ttg75VZ3K2SgfrYiw",
+    // Add your GoogleMaps Key here
+    googleMapsApiKey: "",
   });
 
   const position = {lat: -29.171812, lng: -51.178089}
